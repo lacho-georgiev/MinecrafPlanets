@@ -1,0 +1,19 @@
+name: PLanets
+version: ${project.version}
+main: lacho.lacho.Planets
+api-version: 1.16
+authors: [lacho]
+description: creating planets in minecraft
+commands:
+  dimension:
+    usage: /dimension
+    description: Sends you to the spesific dimension
+  k:
+    usage: /k
+    description: Kill yourself
+  block:
+    usage: /block
+    description: Rotate block
+  velocity:
+    usage: /velocity
+    description: Changes your velocity
